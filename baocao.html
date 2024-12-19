@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="styles/baocao1.css" rel="stylesheet" type="text/css">
+	  <script src="scrips/baocao1.js"></script>
+</head>
+<body>
+	  <div class="container">
+    <h1>ĐÓNG GÓP Ý KIẾN</h1>
+    <form id="feedbackForm">
+      <div class="form1">
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="feedback">Nội dung góp ý</label>
+        <textarea id="feedback" name="feedback"></textarea>
+      </div>
+      <div class="form-group buttons">
+        <button type="button" onclick="submitFeedback()">Gửi đi</button>
+        <button type="button" onclick="resetForm()">Nhập lại</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

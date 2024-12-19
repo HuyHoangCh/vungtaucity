@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: auto}
+.container{
+	width: 300px;
+	height: 200px;
+}
+.form-group{
+	text-align: center;
+	padding-top: 10px;
+}
+.form1{
+	text-align: center;
+	padding-top: 10px;
+}
+.form1 input{
+	width: 195px;
+}
+body{
+	background: aqua;
+}
